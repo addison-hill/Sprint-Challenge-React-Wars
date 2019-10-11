@@ -1,4 +1,4 @@
-# Sprint Challenge: React - Star Wars
+# Sprint Challenge: React - Star Wars - Addison Hill
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored ReactJS, Function Components, component state and side effects. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page.
 
@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a JavaScript library created by the Facebook team that is used to build large web applications. It allows you to make multiple components or functions and pass props down from parent components to child components.
+
 - [ ] What does it mean to _think_ in react?
+
+To think of components and passing down props through them.
 
 - [ ] Describe state.
 
+State is the initial value, and can be modified throughout the component using "useState()".
+
 - [ ] Describe props.
 
+Props are basically properties or values from one component that you can pass into the child component.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A side effect is when a component tries to modify anything outside of the body. So an axios.get API call is an example. You use "useEffect" to sync effects in a react component.
 
 ## Project Set Up
 
